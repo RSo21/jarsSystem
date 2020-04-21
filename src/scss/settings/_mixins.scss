@@ -1,0 +1,49 @@
+@mixin btn-main($colorLeft, $colorRight, $textColor) {
+	.main-btn {
+		position: relative;
+		letter-spacing: 0.25em;
+		margin: 0 auto;
+		padding: 0.4em 3em;
+		background: transparent;
+		outline: none;
+        font-size: 2em;
+        font-weight: 500;
+        color: $textColor;
+        border: none;
+
+		&::after,
+		&::before {
+			content: "";
+			position: absolute;
+			height: 100%;
+			width: 50%;
+			transform: skewX(20deg);
+			transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+			z-index: -2;
+		}
+		&::before {
+			background-color: $colorLeft;
+			top: -0.3em;
+			left: 0em;
+		}
+		&::after {
+			background-color: $colorRight;
+			top: 0.4em;
+			left: 4.7em;
+		}
+		&:hover {
+            color: $font-color-primary;
+			&::before,
+			&::after {
+				top: 0;
+				transform: skewx(0deg);
+			}
+			&::after {
+				left: -0.1em;
+			}
+			&::before {
+				left: 4.9em;
+			}
+		}
+	}
+}

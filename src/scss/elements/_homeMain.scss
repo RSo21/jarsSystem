@@ -1,0 +1,57 @@
+.home-main-container{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.6);
+
+    &::before{
+        background-image: url(./../../assets/katie-harp-vZT-K-Yyvpw-unsplash.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: rgba(0, 0, 0, 0.6);
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom:0;
+        left: 0;
+        content: "";
+        z-index: 0;
+        display: block
+    }
+
+    .home-main-text{
+        display: flex;
+        flex-grow: 1;
+        height: 80vh;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        z-index: 2;
+        top: 10vh;
+        position: relative;
+        text-align: center;
+        letter-spacing: 0.3em; 
+
+        h1{
+            font-size: 3.5em;
+            line-height: 1.3em;
+            font-weight: 500;
+            padding: 1em 7em;
+            text-transform: uppercase;
+
+            span{
+                color: $font-color-secondary;
+                font-weight: 800;
+            }
+        }
+    }
+
+    @include btn-main($color-primary, $color-secondary, $white);
+}
+
+
+
+
+

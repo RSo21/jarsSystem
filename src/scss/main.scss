@@ -1,8 +1,13 @@
+@import "~bootstrap/scss/bootstrap";
+
 @import "settings/colors";
 @import "settings/fonts";
+@import "settings/mixins";
 
 @import "generic/reset";
 
 
 //components
+@import "elements/navigation";
 @import "elements/homeHeader";
+@import "elements/homeMain";

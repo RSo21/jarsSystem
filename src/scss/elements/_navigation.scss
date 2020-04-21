@@ -1,0 +1,22 @@
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.7em;
+    margin-bottom: 0.7em;
+
+    a{
+        font-size: 0.9em;
+        font-weight: 600;
+        letter-spacing: 0.2em; 
+        color: $font-color-primary;
+        text-decoration: none;
+        padding: 1em;
+
+        &:hover{
+            color: $font-color-secondary;
+            border: 0.1em solid $font-color-secondary;
+            padding: 0.9em;
+        }
+    }
+}

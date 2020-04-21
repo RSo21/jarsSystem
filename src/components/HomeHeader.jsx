@@ -1,16 +1,16 @@
 import React from "react";
-//import {Link} from "react-router-dom";
-
-
+import Navigation from "./Navigation"
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col'
 
 const HomeHeader  = () => {
 
     return(
-        <header className = "header-container">
-            <div className = "header-photo">
-                lalalalla
-            </div>
-        </header>
+        <Row className = "home-header-container">
+            <Col className = "home-header-nav"><Navigation /></Col>
+        </Row>
+
+     
     )
 
 

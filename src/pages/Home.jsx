@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 
-import HomeHeader from '../components/HomeHeader';
+import HomeMain from '../components/HomeMain';
+import HomeAbout from '../components/HomeAbout';
+import HomeFooter from '../components/HomeFooter';
 
 
 
@@ -8,7 +10,9 @@ class Home extends Component{
     render(){
         return(
             <>
-                <HomeHeader />
+                <HomeMain />
+                <HomeAbout />
+                <HomeFooter />
             </>
         );
     }
