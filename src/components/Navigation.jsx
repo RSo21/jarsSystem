@@ -10,8 +10,8 @@ const HomeFooter  = () => {
     return(
         <div className= "nav">
             <Link to="/">HOME</Link>
-            <a href = "#start">START</a>
             <a href = "#about">ABOUT</a>
+            <a href = "#start">START</a>
             <a href = "#contact">CONTACT</a>
         </div>
     )

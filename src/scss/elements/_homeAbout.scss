@@ -1,0 +1,73 @@
+#about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .home-about{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .home-about-title{
+            font-size: 2.4em;
+            font-weight: 500;
+            padding: 2em 0;
+        }
+        hr{
+            width: 95vw;
+            height: 1vh;
+        }
+
+        .home-about-text{
+            padding: 1em 8em;
+            font-size: 1.2em;
+            line-height: 1em;
+        }
+    }
+
+    .home-about-jar-title{
+        font-size: 1.6em;
+        padding: 3em 0 2em;
+    }
+
+    .home-about-jar{
+        display: flex;
+        flex-direction: row;
+
+        .home-about-jar-container{
+            display: flex;
+            flex-direction: row;
+            padding: 1em;
+            border: 0.1em solid black;
+            box-shadow: 0.4em 0.4em 1em black;
+
+            .home-about-jar-photo{
+                width: 25vw;
+                height: 30vh;
+            }
+            .home-about-jar-text{
+                width: 55vw;
+                height: 20vh;
+                padding: 1.5em 2em 0;
+                text-align: justify;
+                vertical-align: middle;
+
+                p{
+                    font-size: 1.1em;
+                    line-height: 1.2em;
+                    letter-spacing: 0.09em;
+                    padding-bottom: 0.5em;
+
+                    span{
+                        color: $font-color-secondary;
+                        font-weight: 500;
+                    }
+
+                }
+            }
+
+        }
+    }
+}
