@@ -3,7 +3,6 @@
     height: 100vh;
     position: relative;
     z-index: 1;
-    background-color: rgba(0, 0, 0, 0.6);
 
     &::before{
         background-image: url(./../../assets/katie-harp-vZT-K-Yyvpw-unsplash.jpg);
@@ -48,7 +47,7 @@
         }
     }
 
-    @include btn-main($color-primary, $color-secondary, $white);
+    @include btn-main($color-primary, $color-secondary, $black);
 }
 
 

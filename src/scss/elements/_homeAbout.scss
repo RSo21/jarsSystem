@@ -45,7 +45,7 @@
             box-shadow: 0.4em 0.4em 1em black;
 
             .home-about-jar-photo{
-                width: 25vw;
+                width: 27vw;
                 height: 30vh;
             }
             .home-about-jar-text{
@@ -71,4 +71,10 @@
 
         }
     }
+
+    .btn-row{
+        padding-top: 4em;
+    }
+
+    @include btn-main($color-primary, $color-secondary, $black);
 }

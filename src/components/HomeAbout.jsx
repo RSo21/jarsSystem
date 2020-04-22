@@ -159,6 +159,9 @@ const HomeAbout  = () => {
                 </Col>
                 <Col></Col>
             </Row>
+            <Row className="btn-row">
+                <button className = "main-btn">START</button> 
+            </Row>
 
         </Container>
     )

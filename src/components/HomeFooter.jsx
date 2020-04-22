@@ -8,9 +8,9 @@ import Col from 'react-bootstrap/Col'
 const HomeFooter  = () => {
 
     return(
-        <Container fluid>
+        <Container fluid id="contact">
             <Row>
-                <Col>It will be footer here</Col>
+                <Col>&copy; 2020 by ROKSANA SOBCZAK All Rights Reserved.</Col>
             </Row>
 
 
