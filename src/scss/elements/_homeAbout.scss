@@ -3,6 +3,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding: 1em 0 4em;
 
     .home-about{
         display: flex;
@@ -13,7 +14,7 @@
         .home-about-title{
             font-size: 2.4em;
             font-weight: 500;
-            padding: 2em 0;
+            padding: 1em 0;
         }
         hr{
             width: 95vw;
@@ -55,7 +56,7 @@
                 vertical-align: middle;
 
                 p{
-                    font-size: 1.1em;
+                    font-size: 1em;
                     line-height: 1.2em;
                     letter-spacing: 0.09em;
                     padding-bottom: 0.5em;

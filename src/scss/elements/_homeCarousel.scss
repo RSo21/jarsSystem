@@ -1,0 +1,34 @@
+.home-carousel{
+    width: 100vw;
+    height: 45vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 4em 5em;
+    color:$white;
+
+    .carousel-item{
+        text-align: center;
+        vertical-align: middle;
+
+        h3{
+            font-size: 1.4em;
+            font-weight: 500;
+            padding: 3.5em 8em 2em;
+            line-height: 1.1em;
+            letter-spacing: 0.09em;
+
+            span{
+                color: $font-color-secondary;
+                font-weight: 500;
+            }
+        }
+
+        p{
+            font-size: 0.9em;
+            padding: 0 10em;
+            line-height: 1.1em;
+            letter-spacing: 0.09em;
+        }
+    }
+
+    
+}
