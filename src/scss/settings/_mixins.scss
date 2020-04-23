@@ -8,8 +8,17 @@
 		outline: none;
         font-size: 2em;
         font-weight: 500;
-        color: $textColor;
-        border: none;
+        
+		border: none;
+		
+		a{
+			color: $textColor;
+
+			&:hover{
+				text-decoration: none;
+				color: $white;
+			}
+		}
 
 		&::after,
 		&::before {
@@ -32,7 +41,6 @@
 			left: 4.7em;
 		}
 		&:hover {
-            color: $white;
 			&::before,
 			&::after {
 				top: 0;

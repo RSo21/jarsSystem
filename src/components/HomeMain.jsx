@@ -14,7 +14,7 @@ const HomeMain  = () => {
                 <HomeHeader />
                 <div className = "home-main-text">
                     <h1>This <span>6 JARS System</span> Can Work Miracles For You</h1>
-                    <button className = "main-btn">START</button>
+                    <button className = "main-btn"><a href = "#start">START</a></button>
                 </div>
             </Col>
         </Row>

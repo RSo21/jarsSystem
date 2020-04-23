@@ -160,7 +160,7 @@ const HomeAbout  = () => {
                 <Col></Col>
             </Row>
             <Row className="btn-row">
-                <button className = "main-btn">START</button> 
+                <button className = "main-btn"><a href = "#start">START</a></button> 
             </Row>
 
         </Container>

@@ -1,0 +1,70 @@
+#start{
+    height: auto;
+    display: flex;
+    padding: 3em 2em;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+
+    &::before{
+        background-image: url(./../../assets/michael-longmire-lhltMGdohc8-unsplash.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: rgba(0, 0, 0, 0.6);
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom:0;
+        left: 0;
+        content: "";
+        z-index: 0;
+        display: block
+    }
+
+
+    .home-calculate-form{
+        display: flex;
+        flex-direction: column;
+
+        .home-calculate-label{
+            text-align: center;
+            font-size: 3em;
+            font-weight: 500;
+            padding: 1em 0;
+
+            .calculate-error{
+                font-size: 0.3em;
+                color: red;
+                text-align: center;
+                padding: 1em;
+            }
+
+            input[type='number']{
+                border: 0.1em solid $color-primary;
+                margin: 1em 0;
+            }
+        }
+    }
+
+    .btn-row{  
+        padding: 1em 0 4em;
+        .main-btn-calculate{
+        z-index: 3;
+        }
+    }
+
+    @include btn-main($color-primary, $color-secondary, $black);
+
+    #calculate{
+        th{
+            text-align: center;
+            font-size: 1.4em;
+            font-weight: 500;
+        }
+        td{
+            font-size: 1.1em;
+            text-align: center;
+        }
+    } 
+}
