@@ -32,7 +32,7 @@ const HomeAbout  = () => {
                         under any circumstances. So they cannot be on a shared account or in one proverbial "jar".</p>
                     <p className="home-about-text">However, the individual parts of the funds collected should not be equal. The right percentage distribution 
                         is important here. Each jar corresponds to different, everyday life needs.</p>
-                    <p className="home-about-link">For more information click <a target="_blank" href ="https://www.harveker.com/blog/6-step-money-managing-system/">HERE</a></p>
+                    <p className="home-about-link">For more information click <a target="_blank" rel="noopener noreferrer" href ="https://www.harveker.com/blog/6-step-money-managing-system/">HERE</a></p>
 
                     <hr></hr>
                 </Col>
@@ -162,11 +162,8 @@ const HomeAbout  = () => {
             <Row className="btn-row">
                 <button className = "main-btn"><a href = "#start">START</a></button> 
             </Row>
-
         </Container>
     )
-
-
 }
 
 export default HomeAbout;
