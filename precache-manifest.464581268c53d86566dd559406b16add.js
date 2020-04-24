@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2faefb832a169b627c7d61f99fdcd166",
+    "revision": "fb0912c64990ec2b27176e4f47089aa6",
     "url": "/https://rso21.github.io/jarsSystem/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/https://rso21.github.io/jarsSystem/static/css/2.69121389.chunk.css"
   },
   {
-    "revision": "086c920f08e4790e74c5",
+    "revision": "2fcf942fbd72e2329d96",
     "url": "/https://rso21.github.io/jarsSystem/static/css/main.442a82ce.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/https://rso21.github.io/jarsSystem/static/js/2.d2446eee.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "086c920f08e4790e74c5",
-    "url": "/https://rso21.github.io/jarsSystem/static/js/main.2f1d2ff7.chunk.js"
+    "revision": "2fcf942fbd72e2329d96",
+    "url": "/https://rso21.github.io/jarsSystem/static/js/main.02dcf8a5.chunk.js"
   },
   {
     "revision": "993a11e681180c47cc1a",
