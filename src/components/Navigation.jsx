@@ -33,7 +33,7 @@ class HomeFooter extends Component {
                      </div>
                      <Menu className = "menu-mobile" pageWrapId={"page-wrap"} isOpen={true} width={ 150 }>
                          <p activeclass="active" spy="true" offset={50} duration={500}>
-                            <Link to="/">HOME</Link>
+                            <Link to="/jarsSystem">HOME</Link>
                          </p>
                          <p activeclass="active" spy="true" offset={50} duration={500}>
                             <a href = "#about">ABOUT</a>
@@ -52,7 +52,7 @@ class HomeFooter extends Component {
         return(
             <Row className = "home-header-container">
                 <div className= "nav">
-                    <Link to="/">HOME</Link>
+                    <Link to="/jarsSystem">HOME</Link>
                     <a href = "#about">ABOUT</a>
                     <a href = "#start">START</a>
                     <a href = "#contact">CONTACT</a>
