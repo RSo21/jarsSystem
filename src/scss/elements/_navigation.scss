@@ -1,6 +1,6 @@
 //mobile
 .mobile-nav{
-    background-color: red;
+    background-color: rgba(0, 0, 0, 0.2);
     height: 5vh;
     width: auto;
     display: flex;
@@ -13,14 +13,14 @@
     z-index: 3;
 
     .icon-menu-nav{
-        padding-left: 2vw;
-        padding-top: 1.5vh;
+        padding-right: 2vw;
+        padding-bottom: 1.5vh;
         width: 1.5em;
         height: 1.5em;
     }
 
     .menu-mobile{
-        background: green;
+        background-color: rgba(0, 0, 0, 0.9);
         opacity: 0.9;
 
         p{
@@ -30,16 +30,13 @@
         font-weight: 800;
 
             a{
-                color: blue;
+                color: $white;
                 font-size: 1em;
                 font-weight: 800;
                 text-decoration: none;
 
                 &:hover{
                     color: $font-color-secondary;
-                    border: 0.1em solid $font-color-secondary;
-                    background-color: white;
-                    //padding: 0.9em;
                 }
             }
         }

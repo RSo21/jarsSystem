@@ -31,7 +31,7 @@ class HomeFooter extends Component {
                 <div className="mobile-nav">
                     <div><img className = "icon-menu-nav" src = {MenuIcon} alt = "menuIcon"/> 
                      </div>
-                     <Menu className = "menu-mobile" pageWrapId={"page-wrap"} isOpen={true} width={ 200 }>
+                     <Menu className = "menu-mobile" pageWrapId={"page-wrap"} isOpen={true} width={ 150 }>
                          <p activeclass="active" spy="true" offset={50} duration={500}>
                             <Link to="/">HOME</Link>
                          </p>

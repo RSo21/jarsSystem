@@ -36,6 +36,7 @@ class HomeAbout  extends Component{
         if(isMobile){
             return(
                 <div>
+                    
                 </div>
             )
         }else{
