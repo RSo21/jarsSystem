@@ -1,3 +1,9 @@
+@mixin mobile{
+    @media (max-width: 978px){
+        @content;
+    }
+}
+
 @mixin btn-main($colorLeft, $colorRight, $textColor) {
 	.main-btn {
 		position: relative;
