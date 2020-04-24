@@ -28,8 +28,12 @@ class HomeFooter extends Component{
 
         if(isMobile){
             return(
-                <div>
-                </div>
+                <Container fluid id="contact" className="home-footer-mobile">
+                    <Row>
+                        <p className="home-footer-mobile-text">&copy; 2020 by <span>ROKSANA SOBCZAK</span> | All Rights Reserved | &nbsp;</p>
+                        <p className="home-footer-mobile-text"><span>Find me on: </span>&nbsp;<a href = "https://github.com/RSo21"> <img className="github-icon-mobile" src={githubIcon} alt="github icon"/></a></p>
+                    </Row>
+                </Container>
             )
 
         }else{
