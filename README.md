@@ -53,4 +53,4 @@ To run this project, install it locally using npm:
 
 ## Demo
 
-[The 6 jars system](https://rso21.github.io/jarsSystem/)
+Try this working demo: [The 6 jars system](https://rso21.github.io/jarsSystem/)
