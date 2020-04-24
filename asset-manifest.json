@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/jarsSystem/static/css/main.77dfd7b2.chunk.css",
+    "main.css": "/jarsSystem/static/css/main.7d3c799d.chunk.css",
     "main.js": "/jarsSystem/static/js/main.88acb4d0.chunk.js",
     "main.js.map": "/jarsSystem/static/js/main.88acb4d0.chunk.js.map",
     "runtime-main.js": "/jarsSystem/static/js/runtime-main.b4f602ff.js",
@@ -9,10 +9,10 @@
     "static/js/2.d2446eee.chunk.js": "/jarsSystem/static/js/2.d2446eee.chunk.js",
     "static/js/2.d2446eee.chunk.js.map": "/jarsSystem/static/js/2.d2446eee.chunk.js.map",
     "index.html": "/jarsSystem/index.html",
-    "precache-manifest.2fceeed280ed5c0fc182f19880a5c9c6.js": "/jarsSystem/precache-manifest.2fceeed280ed5c0fc182f19880a5c9c6.js",
+    "precache-manifest.9d9b1fbe9c51054ec790b6e9c434b426.js": "/jarsSystem/precache-manifest.9d9b1fbe9c51054ec790b6e9c434b426.js",
     "service-worker.js": "/jarsSystem/service-worker.js",
     "static/css/2.69121389.chunk.css.map": "/jarsSystem/static/css/2.69121389.chunk.css.map",
-    "static/css/main.77dfd7b2.chunk.css.map": "/jarsSystem/static/css/main.77dfd7b2.chunk.css.map",
+    "static/css/main.7d3c799d.chunk.css.map": "/jarsSystem/static/css/main.7d3c799d.chunk.css.map",
     "static/js/2.d2446eee.chunk.js.LICENSE.txt": "/jarsSystem/static/js/2.d2446eee.chunk.js.LICENSE.txt",
     "static/media/Octicons-mark-github.svg": "/jarsSystem/static/media/Octicons-mark-github.07883e93.svg",
     "static/media/aleks-dorohovich-nJdwUHmaY8A-unsplash.jpg": "/jarsSystem/static/media/aleks-dorohovich-nJdwUHmaY8A-unsplash.20d0939d.jpg",
@@ -27,7 +27,7 @@
     "static/js/runtime-main.b4f602ff.js",
     "static/css/2.69121389.chunk.css",
     "static/js/2.d2446eee.chunk.js",
-    "static/css/main.77dfd7b2.chunk.css",
+    "static/css/main.7d3c799d.chunk.css",
     "static/js/main.88acb4d0.chunk.js"
   ]
 }
