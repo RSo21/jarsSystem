@@ -14,5 +14,16 @@
     .github-icon{
         width: 1.5em;
         height: 1.5em;
+
+        &:hover{
+            background-color: $color-secondary;
+            border-radius: 50%;
+
+        }
+    }
+    a{
+        &:hover{
+            text-decoration: none;
+        }
     }
 }

@@ -1,23 +1,83 @@
-.nav{
+//mobile
+.mobile-nav{
+    background-color: red;
+    height: 5vh;
+    width: auto;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 0.7em;
-    margin-bottom: 0.7em;
+    position: fixed;
+    justify-content: flex-end;
+    align-items: flex-end;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 3;
 
-    a{
-        font-size: 0.9em;
-        font-weight: 600;
-        letter-spacing: 0.2em; 
-        color: $font-color-primary;
-        text-decoration: none;
-        padding: 1em;
+    .icon-menu-nav{
+        padding-left: 2vw;
+        padding-top: 1.5vh;
+        width: 1.5em;
+        height: 1.5em;
+    }
 
-        &:hover{
-            color: $font-color-secondary;
-            border: 0.1em solid $font-color-secondary;
-            background-color: white;
-            padding: 0.9em;
+    .menu-mobile{
+        background: green;
+        opacity: 0.9;
+
+        p{
+        text-align: left;
+        padding: 2em 0 0 1.4em;
+        opacity: 1;
+        font-weight: 800;
+
+            a{
+                color: blue;
+                font-size: 1em;
+                font-weight: 800;
+                text-decoration: none;
+
+                &:hover{
+                    color: $font-color-secondary;
+                    border: 0.1em solid $font-color-secondary;
+                    background-color: white;
+                    //padding: 0.9em;
+                }
+            }
         }
     }
 }
+
+//desktop
+.home-header-container{
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.2);
+    z-index: 3;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .nav{
+        margin-top: 0.7em;
+        margin-bottom: 0.7em;
+    
+        a{
+            font-size: 0.9em;
+            font-weight: 800;
+            letter-spacing: 0.2em; 
+            //color: $font-color-primary;
+            color: white;
+            text-decoration: none;
+            padding: 1em;
+    
+            &:hover{
+                color: $font-color-secondary;
+                border: 0.1em solid $font-color-secondary;
+                background-color: white;
+                padding: 0.9em;
+            }
+        }
+    }
+
+}
+
+

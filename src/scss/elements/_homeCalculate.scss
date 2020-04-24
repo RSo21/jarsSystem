@@ -41,6 +41,8 @@
             }
 
             input[type='number']{
+                background: transparent;
+                text-align: center;
                 border: 0.1em solid $color-primary;
                 margin: 1em 0;
             }
