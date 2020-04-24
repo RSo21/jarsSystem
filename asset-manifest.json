@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/https://rso21.github.io/jarsSystem/static/css/main.442a82ce.chunk.css",
+    "main.js": "/https://rso21.github.io/jarsSystem/static/js/main.2f1d2ff7.chunk.js",
+    "main.js.map": "/https://rso21.github.io/jarsSystem/static/js/main.2f1d2ff7.chunk.js.map",
+    "runtime-main.js": "/https://rso21.github.io/jarsSystem/static/js/runtime-main.ee48d152.js",
+    "runtime-main.js.map": "/https://rso21.github.io/jarsSystem/static/js/runtime-main.ee48d152.js.map",
+    "static/css/2.69121389.chunk.css": "/https://rso21.github.io/jarsSystem/static/css/2.69121389.chunk.css",
+    "static/js/2.d2446eee.chunk.js": "/https://rso21.github.io/jarsSystem/static/js/2.d2446eee.chunk.js",
+    "static/js/2.d2446eee.chunk.js.map": "/https://rso21.github.io/jarsSystem/static/js/2.d2446eee.chunk.js.map",
+    "index.html": "/https://rso21.github.io/jarsSystem/index.html",
+    "precache-manifest.f6d49982dc899de40a653724976aa5e8.js": "/https://rso21.github.io/jarsSystem/precache-manifest.f6d49982dc899de40a653724976aa5e8.js",
+    "service-worker.js": "/https://rso21.github.io/jarsSystem/service-worker.js",
+    "static/css/2.69121389.chunk.css.map": "/https://rso21.github.io/jarsSystem/static/css/2.69121389.chunk.css.map",
+    "static/css/main.442a82ce.chunk.css.map": "/https://rso21.github.io/jarsSystem/static/css/main.442a82ce.chunk.css.map",
+    "static/js/2.d2446eee.chunk.js.LICENSE.txt": "/https://rso21.github.io/jarsSystem/static/js/2.d2446eee.chunk.js.LICENSE.txt",
+    "static/media/Octicons-mark-github.svg": "/https://rso21.github.io/jarsSystem/static/media/Octicons-mark-github.07883e93.svg",
+    "static/media/aleks-dorohovich-nJdwUHmaY8A-unsplash.jpg": "/https://rso21.github.io/jarsSystem/static/media/aleks-dorohovich-nJdwUHmaY8A-unsplash.20d0939d.jpg",
+    "static/media/artem-beliaikin-Dz-Iij3CrpM-unsplash.jpg": "/https://rso21.github.io/jarsSystem/static/media/artem-beliaikin-Dz-Iij3CrpM-unsplash.2ba85d3d.jpg",
+    "static/media/kat-yukawa-K0E6E0a0R3A-unsplash.jpg": "/https://rso21.github.io/jarsSystem/static/media/kat-yukawa-K0E6E0a0R3A-unsplash.8ff8c883.jpg",
+    "static/media/main.scss": "/https://rso21.github.io/jarsSystem/static/media/michael-longmire-lhltMGdohc8-unsplash.44b51b0e.jpg",
+    "static/media/rachel-GGlz-QSvL38-unsplash.jpg": "/https://rso21.github.io/jarsSystem/static/media/rachel-GGlz-QSvL38-unsplash.a7b67ee1.jpg",
+    "static/media/stephen-dawson-qwtCeJ5cLYs-unsplash.jpg": "/https://rso21.github.io/jarsSystem/static/media/stephen-dawson-qwtCeJ5cLYs-unsplash.22bfd4e6.jpg",
+    "static/media/tron-le-JsuBKjHGDMM-unsplash.jpg": "/https://rso21.github.io/jarsSystem/static/media/tron-le-JsuBKjHGDMM-unsplash.1c4d5c1f.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ee48d152.js",
+    "static/css/2.69121389.chunk.css",
+    "static/js/2.d2446eee.chunk.js",
+    "static/css/main.442a82ce.chunk.css",
+    "static/js/main.2f1d2ff7.chunk.js"
+  ]
+}
