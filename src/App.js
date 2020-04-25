@@ -3,8 +3,6 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Home from './pages/Home';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-//import './App.scss';
-
 import "../src/scss/main.scss";
 
 
