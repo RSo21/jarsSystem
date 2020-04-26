@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/jarsSystem/static/css/main.7d3c799d.chunk.css",
-    "main.js": "/jarsSystem/static/js/main.3c4d3bdb.chunk.js",
-    "main.js.map": "/jarsSystem/static/js/main.3c4d3bdb.chunk.js.map",
+    "main.css": "/jarsSystem/static/css/main.b482e6b9.chunk.css",
+    "main.js": "/jarsSystem/static/js/main.26e64963.chunk.js",
+    "main.js.map": "/jarsSystem/static/js/main.26e64963.chunk.js.map",
     "runtime-main.js": "/jarsSystem/static/js/runtime-main.b4f602ff.js",
     "runtime-main.js.map": "/jarsSystem/static/js/runtime-main.b4f602ff.js.map",
     "static/css/2.69121389.chunk.css": "/jarsSystem/static/css/2.69121389.chunk.css",
-    "static/js/2.d2446eee.chunk.js": "/jarsSystem/static/js/2.d2446eee.chunk.js",
-    "static/js/2.d2446eee.chunk.js.map": "/jarsSystem/static/js/2.d2446eee.chunk.js.map",
+    "static/js/2.3716a3d6.chunk.js": "/jarsSystem/static/js/2.3716a3d6.chunk.js",
+    "static/js/2.3716a3d6.chunk.js.map": "/jarsSystem/static/js/2.3716a3d6.chunk.js.map",
     "index.html": "/jarsSystem/index.html",
-    "precache-manifest.38ec2f8d6bc12cca2d4532643e6377ca.js": "/jarsSystem/precache-manifest.38ec2f8d6bc12cca2d4532643e6377ca.js",
+    "precache-manifest.f50c107e8c59516828a42f57c91a1eba.js": "/jarsSystem/precache-manifest.f50c107e8c59516828a42f57c91a1eba.js",
     "service-worker.js": "/jarsSystem/service-worker.js",
     "static/css/2.69121389.chunk.css.map": "/jarsSystem/static/css/2.69121389.chunk.css.map",
-    "static/css/main.7d3c799d.chunk.css.map": "/jarsSystem/static/css/main.7d3c799d.chunk.css.map",
-    "static/js/2.d2446eee.chunk.js.LICENSE.txt": "/jarsSystem/static/js/2.d2446eee.chunk.js.LICENSE.txt",
+    "static/css/main.b482e6b9.chunk.css.map": "/jarsSystem/static/css/main.b482e6b9.chunk.css.map",
+    "static/js/2.3716a3d6.chunk.js.LICENSE.txt": "/jarsSystem/static/js/2.3716a3d6.chunk.js.LICENSE.txt",
     "static/media/Octicons-mark-github.svg": "/jarsSystem/static/media/Octicons-mark-github.07883e93.svg",
     "static/media/aleks-dorohovich-nJdwUHmaY8A-unsplash.jpg": "/jarsSystem/static/media/aleks-dorohovich-nJdwUHmaY8A-unsplash.20d0939d.jpg",
     "static/media/artem-beliaikin-Dz-Iij3CrpM-unsplash.jpg": "/jarsSystem/static/media/artem-beliaikin-Dz-Iij3CrpM-unsplash.2ba85d3d.jpg",
@@ -26,8 +26,8 @@
   "entrypoints": [
     "static/js/runtime-main.b4f602ff.js",
     "static/css/2.69121389.chunk.css",
-    "static/js/2.d2446eee.chunk.js",
-    "static/css/main.7d3c799d.chunk.css",
-    "static/js/main.3c4d3bdb.chunk.js"
+    "static/js/2.3716a3d6.chunk.js",
+    "static/css/main.b482e6b9.chunk.css",
+    "static/js/main.26e64963.chunk.js"
   ]
 }
