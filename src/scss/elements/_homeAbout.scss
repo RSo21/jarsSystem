@@ -1,3 +1,62 @@
+//mobile
+
+.home-about-mobile{
+    .home-about-title-mobile{
+        color: black;
+        padding-top: 1em;
+        text-align: center;
+    }
+    .home-about-text-mobile{
+        text-align: justify;
+        line-height: 1.2em;
+        padding-bottom: 1em;
+        
+        span{
+            color: $font-color-secondary;
+            font-weight: 500;
+        }  
+    }
+
+    .home-about-link-mobile{
+        padding: 1em 0;
+    }
+
+    .home-about-jar-photo-mobile{
+        width: 90vw;
+        height: auto;
+        box-shadow: 0.3em 0.3em 1em black;
+    }
+}
+
+.accordion-toggle{
+    color: $font-color-secondary;
+
+    &:hover{
+        text-decoration: none;
+        color: $font-color-secondary;
+    }
+
+    .arrow-down{
+        font-size: 2em;
+    }
+}
+
+.home-about-card-body{
+    text-align: justify;
+    p{
+        text-align: justify;
+        padding: 0.5em 0;
+        line-height: 1.2em;
+
+        span{
+            color: $font-color-secondary;
+            font-weight: 500;
+        }
+    }
+}
+
+//desktop
+
 #about{
     display: flex;
     justify-content: center;
@@ -25,7 +84,16 @@
         .home-about-text{
             padding: 1em 8em;
             font-size: 1.2em;
-            line-height: 1em;
+            line-height: 1.3em;
+            text-align: justify;
+
+            span{
+                color: $font-color-secondary;
+                font-weight: 500;
+            }
+        }
+        .home-about-link{
+            padding: 2em 0;
         }
     }
 
@@ -66,10 +134,8 @@
                         color: $font-color-secondary;
                         font-weight: 500;
                     }
-
                 }
             }
-
         }
     }
 
