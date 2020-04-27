@@ -28,13 +28,21 @@ class HomeMain extends Component {
 
         if(isMobile){
             return(
-                <div>
-                    <Navigation />
-                </div>
+                <Container fluid className = "home-main-container" id="home">
+                    <Row>
+                        <Col>
+                            <Navigation />
+                            <div className = "home-main-text-mobile">
+                                <h1>This <span>6 JARS System</span> Can Work Miracles For You</h1>
+                                <button className = "main-btn-mobile"><a href = "#start">START</a></button>
+                            </div>
+                        </Col>
+                    </Row>
+                </Container>
             )
         }else{
             return(
-                <Container fluid className = "home-main-container">
+                <Container fluid className = "home-main-container" id="home">
                     <Row>
                         <Col>
                             <Navigation />

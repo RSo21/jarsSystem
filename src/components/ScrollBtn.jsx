@@ -26,7 +26,7 @@ import ScrollUpButton from "react-scroll-up-button";
         if(isMobile){
             return(
                 <div>
-                <ScrollUpButton style={{backgroundColor: "#3BA7E4", width: '1.5em', height: '1.5em'}} />
+                    <ScrollUpButton style={{backgroundColor: "#3BA7E4", width: '1.5em', height: '1.5em'}} />
                 </div>
             )
 

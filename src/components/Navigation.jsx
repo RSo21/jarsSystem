@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import {Link} from "react-router-dom";
+//import {Link} from "react-router-dom";
 import { slide as Menu } from "react-burger-menu";
 import MenuIcon from "../assets/menu.png";
 import Row from 'react-bootstrap/Row';
@@ -33,7 +33,7 @@ class HomeFooter extends Component {
                      </div>
                      <Menu className = "menu-mobile" pageWrapId={"page-wrap"} isOpen={true} width={ 150 }>
                          <p activeclass="active" spy="true" offset={50} duration={500}>
-                            <Link to="/jarsSystem">HOME</Link>
+                            <a href="#home">HOME</a>
                          </p>
                          <p activeclass="active" spy="true" offset={50} duration={500}>
                             <a href = "#about">ABOUT</a>
@@ -52,7 +52,7 @@ class HomeFooter extends Component {
         return(
             <Row className = "home-header-container">
                 <div className= "nav">
-                    <Link to="/jarsSystem">HOME</Link>
+                    <a href="/jarsSystem">HOME</a>
                     <a href = "#about">ABOUT</a>
                     <a href = "#start">START</a>
                     <a href = "#contact">CONTACT</a>

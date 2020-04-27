@@ -61,3 +61,63 @@
 		}
 	}
 }
+
+
+@mixin btn-main-mobile($colorLeft, $colorRight, $textColor) {
+	.main-btn-mobile {
+		position: relative;
+		letter-spacing: 0.25em;
+		margin: 0 auto;
+		padding: 0.2em 1.5em;
+		background: transparent;
+		outline: none;
+        font-size: 1em;
+		font-weight: 500;
+		z-index: 2;
+        
+		border: none;
+		
+		a{
+			color: $textColor;
+
+			&:hover{
+				text-decoration: none;
+				color: $white;
+			}
+		}
+
+		&::after,
+		&::before {
+			content: "";
+			position: absolute;
+			height: 100%;
+			width: 50%;
+			transform: skewX(20deg);
+			transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+			z-index: -2;
+		}
+		&::before {
+			background-color: $colorLeft;
+			top: -0.3em;
+			left: 0em;
+		}
+		&::after {
+			background-color: $colorRight;
+			top: 0.2em;
+			left: 2.4em;
+		}
+		&:hover {
+			&::before,
+			&::after {
+				top: 0;
+				transform: skewx(0deg);
+			}
+			&::after {
+				left: -0.05em;
+			}
+			&::before {
+				left: 2.5em;
+			}
+		}
+	}
+}
