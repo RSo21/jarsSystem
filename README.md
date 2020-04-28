@@ -1,6 +1,7 @@
 # the 6-Jars System
 
 in progress
+I used React Bootstrap in this project because I wanted to try it's capabilities.
 
 ## General
 
@@ -47,7 +48,7 @@ To run this project, install it locally using npm:
 
 * ```git clone https://github.com/RSo21/jarsSystem.git``` to clone the repository
 * ```npm install``` to install all dependencies
-* ```npm start``` and ```http://localhost:3000/``` in the browser to preview the app 
+* ```npm start``` and ```http://localhost:3000/jarsSystem``` in the browser to preview the app 
 
 
 
