@@ -36,6 +36,11 @@ class HomeGivePhoto extends Component{
                     </Row>
                 </Container>
             )
+        }else{
+            return(
+                <>
+                </>
+            )
         }
     }
 }
