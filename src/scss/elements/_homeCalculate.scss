@@ -1,3 +1,52 @@
+//mobile
+
+.home-calculate-form-mobile{
+        display: flex;
+        flex-direction: column;
+    .home-calculate-label-mobile{
+        text-align: center;
+        font-size: 0.8em;
+        font-weight: 500;
+        padding: 1em 0;
+
+        .calculate-error-mobile{
+            font-size: 0.1em;
+            color: red;
+            text-align: center;
+            padding: 1em;
+        }
+
+        input[type='number']{
+            background: transparent;
+            text-align: center;
+            border: 0.1em solid $color-primary;
+            margin: 1em 0;
+        }
+    }
+
+}
+
+.btn-row-mobile{  
+    padding: 1em 0 2em;
+    .main-btn-calculate{
+    z-index: 3;
+    }
+}
+
+@include btn-main-mobile($color-primary, $color-secondary, $black);
+
+#calculate-mobile{
+    th{
+        text-align: center;
+        font-size: 0.3em;
+        font-weight: 500;
+    }
+    td{
+        font-size: 0.1em;
+        text-align: center;
+    }
+} 
+
 #start{
     height: auto;
     display: flex;
@@ -19,7 +68,7 @@
         left: 0;
         content: "";
         z-index: 0;
-        display: block
+        display: block;
     }
 
     .home-calculate-form{

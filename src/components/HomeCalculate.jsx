@@ -77,8 +77,73 @@ class HomeCalculate  extends Component{
 
         if(isMobile){
             return(
-                <div>
-                </div>
+                <Container fluid id="start">
+                <Row>
+                    <Col>
+                    <form className = "home-calculate-form-mobile" onSubmit={this.handleSubmit} >
+                        <label className = "home-calculate-label-mobile">    
+                            ENTER THE AMOUNT: 
+                            <br/>
+                            {calculateError ? <p className = "calculate-error-mobile">{calculateError} </p> : ""}
+                            <input type="number" value = {sum} name = "number"
+                            onChange={this.handleChange} />
+                        </label>
+                    </form>
+                <Row className="btn-row">
+                    <button className = "main-btn-mobile main-btn-calculate" onClick = {this.handleCalculate}><a href="#calculate">CALC</a></button> 
+                </Row>
+                    {showCalculate ?
+                    <Table striped bordered hover variant="dark" id="calculate calculate-mobile">
+                        <thead>
+                            <tr>
+                                <th>JAR</th>
+                                <th>AMOUNT</th>
+                                <th>PERCENT</th>
+                                {/* <th>GOAL</th> */}
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>NECESSITIES</td>
+                                <td>{jar1Necessities}</td>
+                                <td>55%</td>
+                                {/* <td>RENT, FOOD, ELECTRICITY, BILL</td> */}
+                            </tr>
+                            <tr>
+                                <td>LONG-TERM</td>
+                                <td>{jar2LongTerm}</td>
+                                <td>10%</td>
+                                {/* <td>VACATION, UNEXPECTED MEDICAL EXPENSES, BIG PURCHASES</td> */}
+                            </tr>
+                            <tr>
+                                <td>PLAY</td>
+                                <td>{jar3Play}</td>
+                                <td>10%</td>
+                                {/* <td>SPOILING YOURSELF AND YOUR FAMILY, LEISURE EXPENSES</td> */}
+                            </tr>
+                            <tr>
+                                <td>EDUCATION</td>
+                                <td>{jar4Education}</td>
+                                <td>10%</td>
+                                {/* <td>COUCHING, MENTORING, BOOKS, COURSES</td> */}
+                            </tr>
+                            <tr>
+                                <td>FINANCIAL</td>
+                                <td>{jar5Financial}</td>
+                                <td>10%</td>
+                                {/* <td>STOCKS AND SHARES, MUTUAL FUNDS, ANY OTHER INVESTMENTS</td> */}
+                            </tr>
+                            <tr>
+                                <td>GIVE</td>
+                                <td>{jar6Give}</td>
+                                <td>5%</td>
+                                {/* <td>CHARITABLE DONATIONS</td> */}
+                            </tr>
+                        </tbody>
+                    </Table> : ""}
+                    </Col>
+                </Row>
+            </Container>
             )
         }else{
             return(
