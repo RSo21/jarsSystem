@@ -46,7 +46,7 @@
 //desktop
 .home-header-container{
     width: 100vw;
-    background-color: rgba(0, 0, 0, 0.2);
+    // background-color: rgba(0, 0, 0, 0.2);
     z-index: 3;
     position: fixed;
     display: flex;
@@ -54,27 +54,29 @@
     align-items: center;
 
     .nav{
-        margin-top: 0.7em;
-        margin-bottom: 0.7em;
+        margin-top: 0.9em;
+        margin-bottom: 0.9em;
+        background-color: rgba(0, 0, 0, 0.4);
+        box-shadow: 0.3em 0.3em 1em  #10131F;
+        
     
         a{
-            font-size: 0.9em;
+            font-size: 0.8em;
             font-weight: 800;
             letter-spacing: 0.2em; 
             //color: $font-color-primary;
             color: white;
             text-decoration: none;
-            padding: 1em;
+            padding: 1.2em;
     
             &:hover{
                 color: $font-color-secondary;
                 border: 0.1em solid $font-color-secondary;
                 background-color: white;
-                padding: 0.9em;
+                padding: 1.1em;
             }
         }
     }
-
 }
 
 
