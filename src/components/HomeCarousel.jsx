@@ -5,8 +5,8 @@ import Carousel from 'react-bootstrap/Carousel';
 const HomeCarousel  = () => {
 
     return(
-          <Carousel className="home-carousel">
-            <Carousel.Item className="carousel-item">
+          <Carousel>
+            <Carousel.Item>
               <h3>“Successful people have fear, successful people have doubts, and successful people have worries. 
                 They just don’t let these feelings stop them.” <span> - T. Harv Eker</span></h3>
               <p>Successful people have the same emotions as everyone else. The only difference is how they 

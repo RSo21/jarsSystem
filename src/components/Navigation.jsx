@@ -6,7 +6,7 @@ import Row from 'react-bootstrap/Row';
 
 class HomeFooter extends Component {
     state = {
-        width: window.innerWidth,
+        width: window.innerWidth
     };
 
     componentDidMount() {
@@ -21,6 +21,7 @@ class HomeFooter extends Component {
         this.setState({ width: window.innerWidth });
     };
 
+
     render(){
         const { width } = this.state;
         const isMobile = width <= 978;
@@ -28,7 +29,7 @@ class HomeFooter extends Component {
         if(isMobile){
             return(
                 <div className="mobile-nav">
-                    <div><img className = "icon-menu-nav" src = {MenuIcon} alt = "menuIcon"/> 
+                    <div><img className = "icon-menu-nav" src = {MenuIcon} alt = "menuIcon"/>
                      </div>
                      <Menu className = "menu-mobile" pageWrapId={"page-wrap"} isOpen={true} width={ 150 }>
                          <p activeclass="active" spy="true" offset={50} duration={500}>

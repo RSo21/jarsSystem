@@ -1,4 +1,4 @@
-.home-carousel{
+.carousel, .slide{
     width: 100vw;
     height: 45vh;
     background-color: rgba(0, 0, 0, 0.7);
@@ -14,7 +14,6 @@
     .carousel-item{
         text-align: center;
         vertical-align: middle;
-
         h3{
             font-size: 1.4em;
             font-weight: 500;

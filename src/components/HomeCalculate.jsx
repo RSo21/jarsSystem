@@ -5,7 +5,6 @@ import Col from 'react-bootstrap/Col';
 import Table from 'react-bootstrap/Table';
 
 
-
 class HomeCalculate  extends Component{
     state = {
         width: window.innerWidth,
@@ -107,37 +106,31 @@ class HomeCalculate  extends Component{
                                 <td>NECESSITIES</td>
                                 <td>{jar1Necessities}</td>
                                 <td>55%</td>
-                                {/* <td>RENT, FOOD, ELECTRICITY, BILL</td> */}
                             </tr>
                             <tr>
                                 <td>LONG-TERM</td>
                                 <td>{jar2LongTerm}</td>
                                 <td>10%</td>
-                                {/* <td>VACATION, UNEXPECTED MEDICAL EXPENSES, BIG PURCHASES</td> */}
                             </tr>
                             <tr>
                                 <td>PLAY</td>
                                 <td>{jar3Play}</td>
                                 <td>10%</td>
-                                {/* <td>SPOILING YOURSELF AND YOUR FAMILY, LEISURE EXPENSES</td> */}
                             </tr>
                             <tr>
                                 <td>EDUCATION</td>
                                 <td>{jar4Education}</td>
                                 <td>10%</td>
-                                {/* <td>COUCHING, MENTORING, BOOKS, COURSES</td> */}
                             </tr>
                             <tr>
                                 <td>FINANCIAL</td>
                                 <td>{jar5Financial}</td>
                                 <td>10%</td>
-                                {/* <td>STOCKS AND SHARES, MUTUAL FUNDS, ANY OTHER INVESTMENTS</td> */}
                             </tr>
                             <tr>
                                 <td>GIVE</td>
                                 <td>{jar6Give}</td>
                                 <td>5%</td>
-                                {/* <td>CHARITABLE DONATIONS</td> */}
                             </tr>
                         </tbody>
                     </Table> : ""}
