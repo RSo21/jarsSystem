@@ -28,7 +28,7 @@ class HomeGivePhoto extends Component{
 
         if(isMobile){
             return(
-                <Container fluid className="home-give-photo-mobile">
+                <Container fluid className="home-photo-mobile">
                     <Row>
                         <Col>
                             <img className="home-about-jar-photo-mobile" src={givePhoto} alt="givePhoto"/>
