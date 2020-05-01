@@ -70,8 +70,7 @@ class HomeCalculate  extends Component{
     }
 
     render(){
-        const {sum, calculateError, showCalculate, jar1Necessities, jar2LongTerm, jar3Play, jar4Education, jar5Financial, jar6Give} = this.state;
-        const { width } = this.state;
+        const {width, sum, calculateError, showCalculate, jar1Necessities, jar2LongTerm, jar3Play, jar4Education, jar5Financial, jar6Give} = this.state;
         const isMobile = width <= 978;
 
         if(isMobile){
@@ -89,7 +88,7 @@ class HomeCalculate  extends Component{
                         </label>
                     </form>
                 <Row className="btn-row">
-                    <button className = "main-btn-mobile main-btn-calculate" onClick = {this.handleCalculate}><a href="#calculate">CALC</a></button> 
+                    <button className = "main-btn-mobile main-btn-calculate" onClick = {this.handleCalculate}><a href="#calculate-mobile">CALC</a></button> 
                 </Row>
                     {showCalculate ?
                     <Table striped bordered hover variant="dark" id="calculate calculate-mobile">
@@ -98,7 +97,6 @@ class HomeCalculate  extends Component{
                                 <th>JAR</th>
                                 <th>AMOUNT</th>
                                 <th>PERCENT</th>
-                                {/* <th>GOAL</th> */}
                             </tr>
                         </thead>
                         <tbody>
