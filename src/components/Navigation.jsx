@@ -6,11 +6,18 @@ import Row from 'react-bootstrap/Row';
 
 class HomeFooter extends Component {
     state = {
-        width: window.innerWidth
+        width: window.innerWidth,
+        navBackground: ""
     };
 
     componentDidMount() {
         window.addEventListener('resize', this.handleWindowSizeChange);
+        document.addEventListener("scroll", () => {
+            const backgroundcolor = window.scrollY < 100 ? "transparent" : "rgba(255, 255, 255, 0.95)";
+            this.setState({ 
+                navBackground: backgroundcolor 
+            });
+        });
     }
 
     componentWillUnmount() {
@@ -23,7 +30,7 @@ class HomeFooter extends Component {
 
 
     render(){
-        const { width } = this.state;
+        const { width, navBackground } = this.state;
         const isMobile = width <= 978;
 
         if(isMobile){
@@ -50,7 +57,7 @@ class HomeFooter extends Component {
         
     }else{
         return(
-            <Row className = "home-header-container">
+            <Row className = "nav-container" style={{backgroundColor: navBackground}}>
                 <div className= "nav">
                     <a href="/jarsSystem">HOME</a>
                     <a href = "#about">ABOUT</a>
