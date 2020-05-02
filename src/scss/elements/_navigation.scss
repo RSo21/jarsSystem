@@ -1,6 +1,4 @@
-//mobile
 .mobile-nav{
-    background-color: rgba(0, 0, 0, 0.2);
     height: 5vh;
     width: auto;
     display: flex;
@@ -20,8 +18,7 @@
     }
 
     .menu-mobile{
-        background-color: rgba(0, 0, 0, 0.9);
-        opacity: 0.9;
+        background-color: rgba(255, 255, 255, 0.9);
 
         p{
         text-align: left;
@@ -30,7 +27,7 @@
         font-weight: 800;
 
             a{
-                color: $white;
+                color: $black;
                 font-size: 1em;
                 font-weight: 800;
                 text-decoration: none;
@@ -43,7 +40,6 @@
     }
 }
 
-//desktop
 .nav-container{
     width: 100vw;
     z-index: 3;
