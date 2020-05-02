@@ -1,7 +1,7 @@
 # the 6-Jars System
 
-in progress
 I used React Bootstrap in this project because I wanted to try it's capabilities.
+
 
 ## General
 
@@ -55,3 +55,6 @@ To run this project, install it locally using npm:
 ## Demo
 
 Try this working demo: [The 6 jars system](https://rso21.github.io/jarsSystem/)
+
+
+:) 
