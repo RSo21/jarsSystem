@@ -4,7 +4,7 @@ import MenuIcon from "../assets/menu.png";
 import Row from 'react-bootstrap/Row';
 
 
-class HomeFooter extends Component {
+class Navigation extends Component {
     state = {
         width: window.innerWidth,
         navBackground: ""
@@ -70,4 +70,4 @@ class HomeFooter extends Component {
     }
 }
 
-export default HomeFooter;
+export default Navigation;
