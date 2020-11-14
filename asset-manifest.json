@@ -1,33 +1,33 @@
 {
   "files": {
-    "main.css": "/jarsSystem/static/css/main.c70a3861.chunk.css",
-    "main.js": "/jarsSystem/static/js/main.412f596c.chunk.js",
-    "main.js.map": "/jarsSystem/static/js/main.412f596c.chunk.js.map",
+    "main.css": "/jarsSystem/static/css/main.210147c6.chunk.css",
+    "main.js": "/jarsSystem/static/js/main.2d1fd815.chunk.js",
+    "main.js.map": "/jarsSystem/static/js/main.2d1fd815.chunk.js.map",
     "runtime-main.js": "/jarsSystem/static/js/runtime-main.b4f602ff.js",
     "runtime-main.js.map": "/jarsSystem/static/js/runtime-main.b4f602ff.js.map",
     "static/css/2.69121389.chunk.css": "/jarsSystem/static/css/2.69121389.chunk.css",
     "static/js/2.d815293d.chunk.js": "/jarsSystem/static/js/2.d815293d.chunk.js",
     "static/js/2.d815293d.chunk.js.map": "/jarsSystem/static/js/2.d815293d.chunk.js.map",
     "index.html": "/jarsSystem/index.html",
-    "precache-manifest.1f21e9fcb505989c075518d139ddb51f.js": "/jarsSystem/precache-manifest.1f21e9fcb505989c075518d139ddb51f.js",
+    "precache-manifest.98a334727a8d7ca1e6c79dc369cafc0f.js": "/jarsSystem/precache-manifest.98a334727a8d7ca1e6c79dc369cafc0f.js",
     "service-worker.js": "/jarsSystem/service-worker.js",
     "static/css/2.69121389.chunk.css.map": "/jarsSystem/static/css/2.69121389.chunk.css.map",
-    "static/css/main.c70a3861.chunk.css.map": "/jarsSystem/static/css/main.c70a3861.chunk.css.map",
+    "static/css/main.210147c6.chunk.css.map": "/jarsSystem/static/css/main.210147c6.chunk.css.map",
     "static/js/2.d815293d.chunk.js.LICENSE.txt": "/jarsSystem/static/js/2.d815293d.chunk.js.LICENSE.txt",
     "static/media/Octicons-mark-github.svg": "/jarsSystem/static/media/Octicons-mark-github.07883e93.svg",
-    "static/media/aleks-dorohovich-nJdwUHmaY8A-unsplash.jpg": "/jarsSystem/static/media/aleks-dorohovich-nJdwUHmaY8A-unsplash.20d0939d.jpg",
+    "static/media/aleks-dorohovich-nJdwUHmaY8A-unsplash.jpg": "/jarsSystem/static/media/aleks-dorohovich-nJdwUHmaY8A-unsplash.5b7fbb14.jpg",
     "static/media/artem-beliaikin-Dz-Iij3CrpM-unsplash.jpg": "/jarsSystem/static/media/artem-beliaikin-Dz-Iij3CrpM-unsplash.2ba85d3d.jpg",
-    "static/media/kat-yukawa-K0E6E0a0R3A-unsplash.jpg": "/jarsSystem/static/media/kat-yukawa-K0E6E0a0R3A-unsplash.8ff8c883.jpg",
-    "static/media/main.scss": "/jarsSystem/static/media/michael-longmire-lhltMGdohc8-unsplash.44b51b0e.jpg",
-    "static/media/rachel-GGlz-QSvL38-unsplash.jpg": "/jarsSystem/static/media/rachel-GGlz-QSvL38-unsplash.a7b67ee1.jpg",
-    "static/media/stephen-dawson-qwtCeJ5cLYs-unsplash.jpg": "/jarsSystem/static/media/stephen-dawson-qwtCeJ5cLYs-unsplash.22bfd4e6.jpg",
+    "static/media/kat-yukawa-K0E6E0a0R3A-unsplash.jpg": "/jarsSystem/static/media/kat-yukawa-K0E6E0a0R3A-unsplash.f14614c4.jpg",
+    "static/media/main.scss": "/jarsSystem/static/media/michael-longmire-lhltMGdohc8-unsplash.45c60b9e.jpg",
+    "static/media/rachel-GGlz-QSvL38-unsplash.jpg": "/jarsSystem/static/media/rachel-GGlz-QSvL38-unsplash.dae2f744.jpg",
+    "static/media/stephen-dawson-qwtCeJ5cLYs-unsplash.jpg": "/jarsSystem/static/media/stephen-dawson-qwtCeJ5cLYs-unsplash.033d0be3.jpg",
     "static/media/tron-le-JsuBKjHGDMM-unsplash.jpg": "/jarsSystem/static/media/tron-le-JsuBKjHGDMM-unsplash.1c4d5c1f.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.b4f602ff.js",
     "static/css/2.69121389.chunk.css",
     "static/js/2.d815293d.chunk.js",
-    "static/css/main.c70a3861.chunk.css",
-    "static/js/main.412f596c.chunk.js"
+    "static/css/main.210147c6.chunk.css",
+    "static/js/main.2d1fd815.chunk.js"
   ]
 }
